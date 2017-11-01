@@ -30,7 +30,7 @@
 * [install mongodb](https://www.mongodb.com/download-center?jmp=nav#community) 
 * unpack and moving in to directory user
 * create mongo-data folder
-* cd to /bin and use command './mongo --dbpath ~mongo-data'
+* cd to /bin and use command `./mongo --dbpath ~mongo-data`
 * run mongo success!
 
 
@@ -44,15 +44,15 @@
 ### Git-hub
 
 (For Fist-time)
-* ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-* cat ~/.ssh/id_rsa.pub
+* `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+* `cat ~/.ssh/id_rsa.pub`
 
 (Use)
 * create respo
-* git init
-* git commit -am 'Initial Commit'
-* git remote
-* git push origin master
+* `git init`
+* `git commit -am 'Initial Commit'`
+* `git remote <git:url>`
+* `git push origin master`
 
 
 ### Heroku
@@ -61,15 +61,15 @@
 * [install heroku](https://devcenter.heroku.com/articles/heroku-cli#macos) and 
 * [create account](https://signup.heroku.com/)
 * open terminal use command 'heroku login'
-* add ssh to heroku use 'heroku keys:add' and 'ssh -v git@heroku.com'
+* add ssh to heroku use `heroku keys:add` and `ssh -v git@heroku.com`
 * setup success!
 
 (Use)
 * go to directory
-* create heroku use command 'heroku create'
+* create heroku use command `heroku create`
 
 Case have credit card
-* for use addons(like mongolab) 'heroku addons:create mongolab:sandbox'
+* for use addons(like mongolab) `heroku addons:create mongolab:sandbox`
 
 ***
 
@@ -81,8 +81,8 @@ Case Not have credit card
 
 ***
 
-* push heroku to server 'git push heroku'
-* view web-page to input 'heroku open'
+* push heroku to server `git push heroku`
+* view web-page to input `heroku open`
 * success! 
 
 
