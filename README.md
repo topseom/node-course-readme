@@ -67,6 +67,16 @@
 (Use)
 * go to directory
 * create heroku use command 'heroku create'
+
+Case have credit card
+* for use addons(like mongolab) 'heroku addons:create mongolab:sandbox'
+
+Case Not have credit card
+* use mLab [login](https://mlab.com/login/) or [signup](https://mlab.com/signup/)
+* [create new database](https://mlab.com/create/wizard#PlanType-Provider)
+* create user for use database
+* database ready to go!
+
 * push heroku to server 'git push heroku'
 * view web-page to input 'heroku open'
 * success! 
