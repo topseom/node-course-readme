@@ -33,11 +33,13 @@
 * cd to /bin and use command `./mongo --dbpath ~mongo-data`
 * run mongo success!
 
-
 ### Tools
 
 * [robomongo](https://robomongo.org/download) (desktop application for gui mongodb structure like phpmyadmin)
 
+### Schema
+
+* structure model mongodb database for add method,validation
 
 ## Deploy
 
@@ -85,4 +87,12 @@ Case Not have credit card
 * view web-page to input `heroku open`
 * success! 
 
+## Authentication and Validator
+
+### Validator
+* [validator](https://www.npmjs.com/package/validator) package for validation
+
+### JSON WEB TOKEN (JWT)
+* [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) package for cyrpto use JSON WEB TOKEN method
+  by SHA256(JSON.stringify(data+salt)).toString()
 
