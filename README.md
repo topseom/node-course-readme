@@ -30,7 +30,7 @@
 * [install mongodb](https://www.mongodb.com/download-center?jmp=nav#community) 
 * unpack and moving in to directory user
 * create mongo-data folder
-* cd to /bin and use command `./mongo --dbpath ~mongo-data`
+* cd to /bin and use command `./mongod --dbpath ~mongo-data`
 * run mongo success!
 
 ### Tools
